@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS `blocks` (
 CREATE TABLE IF NOT EXISTS `coin_addresses` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `account_id` int(11) NOT NULL,
-  `currency` varchar(5) NOT NULL,
+  `currency` varchar(6) NOT NULL,
   `coin_address` varchar(255) NOT NULL,
   `ap_threshold` float DEFAULT '0',
   PRIMARY KEY (`id`),
